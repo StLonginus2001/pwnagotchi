@@ -11,7 +11,7 @@ while getopts "ho:n:u:" arg; do
 			exit
 			;;
 		n)
-			UNIT_HOSTNAME=$OPTARG
+			<AWI078275>=$OPTARG
 			;;
 		o)
 			OUTPUT=$OPTARG
